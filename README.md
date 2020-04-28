@@ -7,10 +7,10 @@ C++ implementation of value iteration for:
 
 ## Dependencies
 
-CMake and Eigen3 are required:
+CMake, Eigen3, LibYAML, and Boost are required:
 
 ```bash
-sudo apt-get install build-essential cmake libeigen3-dev
+sudo apt-get install build-essential cmake libeigen3-dev libboost-all-dev libyaml-dev
 ```
 
 ## Installation and Usage
@@ -18,7 +18,7 @@ sudo apt-get install build-essential cmake libeigen3-dev
 For installation:
 
 ```bash
-git clone https://github.com/goromal/acrobot-dp.git
+git clone --recurse-submodules https://github.com/goromal/acrobot-dp.git
 mkdir acrobot-dp/build && cd acrobot-dp
 cmake ..
 make
