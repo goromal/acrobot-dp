@@ -19,7 +19,7 @@ For installation:
 
 ```bash
 git clone --recurse-submodules https://github.com/goromal/acrobot-dp.git
-mkdir acrobot-dp/build && cd acrobot-dp
+mkdir acrobot-dp/build && cd acrobot-dp/build
 cmake ..
 make
 ```
